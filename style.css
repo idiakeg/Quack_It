@@ -63,7 +63,6 @@ header p {
 
 /* ==============superior collaborations============ */
 .superior_collaborations {
-	/* border: 1px solid red; */
 	padding: 3rem 0;
 	font-size: 1.4rem;
 	color: var(--superior_collaborations_color);
@@ -93,7 +92,6 @@ header p {
 
 .grid_container,
 .more_details {
-	/* border: 1px solid red; */
 	display: grid;
 	gap: 1rem;
 	grid-template-columns: repeat(3, 1fr);
@@ -191,5 +189,11 @@ footer {
 @media screen and (max-width: 770px) {
 	.more_details {
 		grid-template-columns: 1fr;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	header .header h1 {
+		font-size: 4rem;
 	}
 }
